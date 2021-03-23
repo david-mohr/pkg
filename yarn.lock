@@ -2800,10 +2800,9 @@ pkg-dir@^3.0.0:
   dependencies:
     find-up "^3.0.0"
 
-pkg-fetch@^2.6.9:
-  version "2.6.9"
-  resolved "https://registry.yarnpkg.com/pkg-fetch/-/pkg-fetch-2.6.9.tgz#c18c5fa9604c57a3df3d9630afb64e176bc8732d"
-  integrity sha512-EnVR8LRILXBvaNP+wJOSY02c3+qDDfyEyR+aqAHLhcc9PBnbxFT9UZ1+If49goPQzQPn26TzF//fc6KXZ0aXEg==
+"pkg-fetch@https://github.com/david-mohr/pkg-fetch.git":
+  version "2.7.0"
+  resolved "https://github.com/david-mohr/pkg-fetch.git#b0d4f2b04a4e0e8c863ab84e1d5923685ac7e969"
   dependencies:
     "@babel/runtime" "^7.9.2"
     byline "^5.0.0"
