@@ -4,10 +4,6 @@
   },
   "rules": {
     "no-path-concat": "off",
-    "no-var": "off",
-    "linebreak-style": [
-      "error",
-      "unix"
-    ]
+    "no-var": "off"
   }
 }

@@ -1,11 +1,5 @@
 {
   "parserOptions": {
     "sourceType": "script"
-  },
-  "rules": {
-    "linebreak-style": [
-      "error",
-      "unix"
-    ]
   }
 }

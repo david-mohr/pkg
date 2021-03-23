@@ -32,6 +32,10 @@ jobs:
       - name: Install deps
         run: yarn install
 
+      - name: Lint
+        if: matrix['node-version'] == '14.x' && matrix['os'] == 'ubuntu-latest'
+        run: yarn run lint
+
       - name: Build
         run: yarn run babel
 
